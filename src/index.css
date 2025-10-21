@@ -12,7 +12,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  /* Variables */
   --grid-size: 20rem;
+  --square-active-background: black;
+  --square-inactive-background: lightGray;
+  --inner-grid-border-colour: gray;
+  --square-border-colour: darkGray;
 }
 
 body {
