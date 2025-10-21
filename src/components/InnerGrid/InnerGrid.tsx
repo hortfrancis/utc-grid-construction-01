@@ -1,11 +1,12 @@
+import Square from '../Square/';
 import './InnerGrid.css';
 
 export default function InnerGrid() {
+  // Create a 2x2 grid 
   return (
-    // Create a 2x2 grid 
     <div className='InnerGrid'>
       {Array.from({ length: 4 }).map((_, index) => (
-        <div key={index} />
+        <Square key={index} />
       ))}
     </div>
   )

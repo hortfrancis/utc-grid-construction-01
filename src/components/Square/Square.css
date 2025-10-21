@@ -1,0 +1,12 @@
+  .Square {
+    background-color: coral;
+    /* The overall size of the outer grid is established by here. */
+    width: calc(var(--grid-size) / 6);
+    height: calc(var(--grid-size) / 6);
+
+    border: 1px darkblue solid;
+
+    &.active {
+      background-color: lightgreen;
+    }
+  }
