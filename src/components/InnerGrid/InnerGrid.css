@@ -1,0 +1,17 @@
+.InnerGrid {
+  /* 2x2 grid */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  border: 1px solid teal;
+
+  div {
+    background-color: coral;
+    /* The overall size of the outer grid is established by here. */
+    width: calc(var(--grid-size) / 6);
+    height: calc(var(--grid-size) / 6);
+
+    border: 1px darkblue solid;
+  }
+}
